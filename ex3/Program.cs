@@ -1,6 +1,6 @@
-﻿Console.Write("Введите первое число: ");
-int firstValue = int.Parse(Console.ReadLine());
-Console.Write("Введите второе число: ");
-int secondValue = int.Parse(Console.ReadLine());
+﻿int firstValue = new Random().Next(1,100);
+Console.WriteLine("Первое случайное число: " + firstValue);
+int secondValue = new Random().Next(1,100);
+Console.WriteLine("Второе случайное число: " + secondValue);
 int sumResult = firstValue + secondValue;
 Console.Write("Сумма чисел: " + sumResult);
